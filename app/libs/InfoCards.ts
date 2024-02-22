@@ -1,4 +1,5 @@
 import { Clock, Edit, ArrowUpNarrowWide } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 
 interface IInfoCard {
     title: string;
