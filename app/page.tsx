@@ -19,11 +19,15 @@ export default function Home() {
         <div className="w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8">
           <div className="flex flex-col gap-2">
             <h1 className="text-4xl font-black md:text-8xl">NewGenius</h1>
-            <h2 className="text-md md:text-2xl">📡 Start Streaming AI News Today! 📰</h2>
+            <h2 className="text-md md:text-2xl">
+              📡 Start Streaming AI News Today! 📰
+            </h2>
           </div>
           <p className="max-w-md text-sm md:text-base text-zinc-500">
-Say goodbye to overpriced headlines💸and hello to wallet-friendly updates!🚀Let's make headlines together!🌟
-</p>
+            Say goodbye to overpriced headlines💸and hello to wallet-friendly
+            updates!🚀Let&apos;s make headlines together!🌟
+          </p>
+
           <div className="w-full flex items-center justify-center md:justify-start gap-4">
             <button className="w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors">
               Try Below!
@@ -78,7 +82,7 @@ Say goodbye to overpriced headlines💸and hello to wallet-friendly updates!🚀
         </div>
         <div className="w-full h-full flex items-center justify-center flex-col gap-8 max-w-7xl">
           <h3 className="text-4xl md:text-5xl font-bold">
-          Round-the-Clock⏰ NewGenius Rocks🌟
+            Round-the-Clock⏰ NewGenius Rocks🌟
           </h3>
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
