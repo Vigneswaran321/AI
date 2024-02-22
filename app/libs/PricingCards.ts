@@ -8,28 +8,26 @@ interface IPricingCard {
 
 const pricingCards:IPricingCard[] = [
     {
-        price: 49,
-        title: "Insightful Pro",
+        price: 350,
+        title: "NewGenius Pro",
         benefits: [
-            "Predictive lead scoring",
-            "Automated content creation",
-            "Personalized messaging at scale",
-            "Customer retention tools",
+            "Unlimited Minutes of Generation",
+            "Automated Video Creation",
+            "Lower Quality Generation",
         ],
         id: 1,
-        oneliner: "AI-powered sales tools for focused revenue growth"
+        oneliner: "Unlock AI-powered news generation for revenue growth!"
     },
     {
-        price: 99,
-        title: "Insightful Enterprise",
+        price: 700,
+        title: "NewGenius Enterprise",
         benefits: [
             "Everything In Pro Tier, and:",
-            "Data-driven recommendations",
-            "Customizable sales workflows",
-            "Real-time alerts and notifications",
+            "High Quality Generation",
+            "Videos with AI-Powered Templates",
         ],
         id: 2,
-        oneliner: "Comprehensive sales optimization for accelerated revenue gains"
+        oneliner: "Accelerate your revenue with comprehensive AI news generation!"
     },
 ]
 
